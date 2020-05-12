@@ -12,12 +12,15 @@ declare(strict_types=1);
 
 namespace Fangx\Cookie;
 
+use Fangx\Cookie\Contracts\QueueingFactory;
+
 class ConfigProvider
 {
     public function __invoke(): array
     {
         return [
             'dependencies' => [
+                QueueingFactory::class => CookieJar::class,
             ],
             'commands' => [
             ],
