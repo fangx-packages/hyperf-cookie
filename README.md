@@ -1,5 +1,9 @@
-# component-creater
+## fangx/hyperf-cookie
 
-```
-composer create-project hyperf/component-creater
+> 增强hyperf中cookie的功能
+
+## install
+
+```bash
+composer require fangx/hyperf-cookie
 ```
